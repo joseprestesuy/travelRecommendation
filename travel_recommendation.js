@@ -10,6 +10,22 @@ fetch('travel_recommendation_api.json')
     })
     .catch(error => console.error('Error al obtener los datos:', error));
 
+    fetch('travel_recommendation_api.json')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.json();
+    })
+    .then(data => {
+      console.log(data); // Step 2: Log the data to the console
+      displayRecommendations(data); // Step 3: Pass the data to a function to display
+    })
+    .catch(error => {
+      console.error('There has been a problem with your fetch operation:', error);
+    });
+  
+
 // Tarea 6: Función para mostrar las recomendaciones filtradas
 function displayRecommendations(results) {
     const container = document.getElementById('results-container');
