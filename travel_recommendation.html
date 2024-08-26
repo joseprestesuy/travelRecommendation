@@ -6,17 +6,15 @@
     <title>Travel Recommendation</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="home"
-  style="background-image: url('Background-image.jpg')">
-    <nav>
-      <div class="navbar">
-        <!-- logo -->
-        <a href="travel_recommendation.html" class="logo"></a>
-        <a href="travel_recommendation.html">Home</a>
-        <a href="aboutUs.html">About Us</a>
-        <a href="contactUs.html">Contact Us</a>
-      </div>
-      <div class="search-bar">
+  <body class="body" class="home">
+    <nav class="navbar">
+      <a href="travel_recommendation.html" class="icon"> <img src="pngwing.com.png" alt="logo" class="logo"></a>
+      <ul>
+        <li><a href="travel_recommendation.html">Home</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <li><a href="contactUs.html">Contact Us</a></li>
+      </ul>
+      <form class="search-bar">
         <input
           type="text"
           id="search"
@@ -24,23 +22,25 @@
         />
         <button id="search-button">Search</button>
         <button id="reset-button">Reset</button>
-      </div>
+      </form>
     </nav>
-
     <header class="intro">
-      <h1>Welcome to Your Website</h1>
-      <p>Discover the best travel destinations tailored just for you.</p>
+      <h1>Go Outside: The world is waiting for you!</h1>
+      <pre>Discover the best travel destinations tailored just for you.
+        
+        0-odisa
+      </pre>
     </header>
 
     <main>
       <div id="results-container"></div>
     </main>
 
-    <footer>
-      <div class="social-icons">
-        <a href="#"><img src="facebook-icon.png" alt="Facebook" /></a>
-        <a href="#"><img src="twitter-icon.png" alt="Twitter" /></a>
-        <a href="#"><img src="instagram-icon.png" alt="Instagram" /></a>
+    <footer class="footer">
+      <div class="socials">
+        <a href="#"><img src="fc.png" alt="Facebook" /></a>
+        <a href="#"><img src="x.png" alt="X" /></a>
+        <a href="#"><img src="ig.png" alt="Instagram" /></a>
       </div>
     </footer>
   </body>

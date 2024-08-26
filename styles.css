@@ -1,0 +1,79 @@
+.body {
+  background-image: url("Background-image.jpg");
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  background-color: rgb(31, 25, 25);
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.search-bar {
+  margin-left: auto;
+  border: none;
+  padding: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: antiquewhite;
+}
+
+.icon {
+  margin-right: auto;
+}
+
+.logo {
+  width: 50px;
+}
+
+header {
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  top: 40%;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Espacio entre los íconos */
+}
+
+.socials a img {
+  width: 20px; /* Tamaño de las mini imágenes */
+}
+
+.socials a img:hover {
+  transform: scale(1.2); /* Efecto de zoom al pasar el mouse */
+  transition: transform 0.3s ease;
+}
