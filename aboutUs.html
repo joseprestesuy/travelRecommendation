@@ -8,23 +8,41 @@
   </head>
   <body class="body">
     <nav class="navbar">
-      <a href="travel_recommendation.html" class="icon"> <img src="pngwing.com.png" alt="logo" class="logo"></a>
+      <a href="travel_recommendation.html" class="icon">
+        <img src="pngwing.com.png" alt="logo" class="logo"
+      /></a>
       <ul>
         <li><a href="travel_recommendation.html">Home</a></li>
         <li><a href="aboutUs.html">About Us</a></li>
         <li><a href="contactUs.html">Contact Us</a></li>
       </ul>
-      <form class="search-bar"></form>
+      <form class="search-bar" style="visibility: hidden">
+        <input
+          type="text"
+          id="search"
+          placeholder="Search for recommendations"
+        />
+        <button id="search-button">Search</button>
+        <button id="reset-button">Reset</button>
+      </form>
     </nav>
 
-    <header>
+    <header class="headerAboutUs">
       <h1>About Our Company</h1>
     </header>
+    
     <section class="about-us">
-      <p>Your company description goes here.</p>
-
-      <h2>Meet the Team</h2>
-      <div class="team">
+      <p>
+        En travel recommendation, creemos que viajar es más que simplemente
+        llegar de un lugar a otro; es una experiencia que enriquece, inspira y
+        conecta. Fundado por un equipo de apasionados por los viajes y la
+        tecnología, nuestro objetivo es hacer que la búsqueda del vuelo perfecto
+        sea tan emocionante como el destino en sí.
+      </p>
+    </section>
+    <section class="team">
+      <h2 class="h2About">Meet the Team</h2>
+      <div class="teamInfo">
         <div class="team-member">
           <h3>John Doe</h3>
           <p>CEO</p>
