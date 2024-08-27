@@ -126,3 +126,6 @@ document.getElementById('reset-button').addEventListener('click', function () {
 
 // Iniciar el proceso al cargar la página
 fetchRecommendations();
+
+const resultsContainer = document.getElementById('results-container');
+resultsContainer.innerHTML = '<p>Prueba de contenido</p>';
