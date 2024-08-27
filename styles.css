@@ -168,6 +168,11 @@ p {
   background-color: #45a049;
 }
 
+#results-container{
+  display: flex;
+  margin: 20px 10%;
+}
+
 /* Footer todas las pags*/
 .footer {
   position: fixed;
